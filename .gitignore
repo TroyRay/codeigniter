@@ -1,0 +1,33 @@
+# Ignore everything
+*
+
+# Except the following
+!.gitignore
+!.htaccess
+!README.md
+!mysql.sql
+!index.php
+!/css/
+!/css/style.css
+!/uploads/
+!/uploads/index.html
+!/application/
+!/application/config/
+!/application/config/config.php
+!/application/config/routes.php
+!/application/controllers/
+!/application/controllers/pages.php
+!/application/controllers/posts.php
+!/application/models
+!/application/models/posts_model.php
+!/application/views/
+!/application/views/pages/
+!/application/views/pages/*.php
+!/application/views/posts/
+!/application/views/posts/*.php
+!/application/views/templates/
+!/application/views/templates/footer.php
+!/application/views/templates/header.php
+
+# Ignore application/.htaccess
+/application/.htaccess
